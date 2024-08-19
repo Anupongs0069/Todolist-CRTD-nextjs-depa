@@ -1,0 +1,30 @@
+/* styles/TodoForm.module.css */
+.form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0070f3;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
